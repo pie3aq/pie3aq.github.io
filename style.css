@@ -1,0 +1,109 @@
+body{
+    color: darkblue;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(198, 221, 240);
+    font-family: 'Courier New', serif;
+    font-weight: bold;
+    display: block;
+    padding: 3% 47%;
+
+}
+.page{
+    width: 100%;
+    max-width: 1960px;
+    background-color: gainsboro;
+    text-align: center;
+    min-height: 600px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+    font-size: 25px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    flex: 1 1 0;
+    background-color: rgb(66, 180, 218);
+    align-self: 15px;
+}
+.box:hover{
+    background-color: rgb(81, 144, 216);
+}
+h1, h3{
+    color: rgb(71, 93, 110);
+}
+
+/*Strona HOME*/
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.photo img{
+    border-style: inset;
+    border-color: rgb(71, 93, 110);
+    border-width: 7px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;
+    min-width: 300px;
+    margin: 50px 100px 50px 100px;
+    padding: 0 10px 0 10px;
+    color: rgb(71, 93, 110);
+    font-size: 20px;
+    text-align: justify;
+    border-style: inset;
+    border-color: rgb(71, 93, 110);
+    border-width: 7px;
+}
+/*Strona CV*/
+.cv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    min-width: 300px;
+    margin: 50px 100px 50px 100px;
+    padding: 0 10px 0 10px;
+    background-color: ivory;
+}
+.pole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    max-width: 95%;
+}
+.pole h3{
+    background-color: rgb(198, 221, 240);
+    width: 95%;
+}
+ul{
+    display: flex;
+    text-align: left;
+    flex-flow: column;
+    width: 90%;
+    flex-flow: column;
+    word-wrap: break-word;
+}
+/*Strona CONTACT*/
+.contact2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 25px;
+}
+.contact2 img{
+    padding: 20px 40px 50px 60px;
+}
